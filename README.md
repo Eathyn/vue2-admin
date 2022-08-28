@@ -1,27 +1,39 @@
 # vue2-admin
 
-## Project setup
+## Tech Stack
 
-```
+- Vue.js 2
+- Vue Router 3
+- Vuex 3
+- Element UI 2
+- ESLint + Prettier + lint-staged
+- commitizen + commitlint
+- pre-commit + commit-msg husky hooks
+
+## Commands
+
+### Project setup
+
+```bash
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 
-```
-yarn serve
+```bash
+yarn dev
 ```
 
 ### Compiles and minifies for production
 
-```
+```bash
 yarn build
 ```
 
-### Lints and fixes files
+### Commit Message
 
-```
-yarn lint
+```bash
+yarn cz
 ```
 
 ### Customize configuration
